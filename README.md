@@ -11,7 +11,7 @@ submitted, as an update to the existing entry, at a later point in time.
 ## How to build
 
 ```console
-achim@logicalhacking:~$ isabelle build -D Extended_Finite_State_Machines
+achim@logicalhacking:~$ isabelle build -D Extended_Finite_State_Machines-devel
 ```
 
 ## Authors
