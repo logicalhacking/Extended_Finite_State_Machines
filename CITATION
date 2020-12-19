@@ -1,0 +1,73 @@
+To cite the use of this formal theory, please use
+
+  Michael Foster, Achim D. Brucker, Ramsay G. Taylor, and John Derrick. A Formal Model of
+  Extended Finite State Machines. In Archive of Formal Proofs, 2020. 
+  http://www.isa-afp.org/entries/Extended_Finite_State_Machines.html, 
+  Formal proof development
+
+A BibTeX entry for LaTeX users is
+
+@Article{ foster.ea:efsm:2020,
+	abstract  = {In this AFP entry, we provide a formalisation of extended finite state machines 
+                     (EFSMs) where models are represented as finite sets of transitions between 
+                     states. EFSMs execute traces to produce observable outputs. We also define 
+                     various simulation and equality metrics for EFSMs in terms of traces and prove 
+                     their strengths in relation to each other. Another key contribution is a framework
+                     of function definitions such that LTL properties can be phrased over EFSMs. 
+                     Finally, we provide a simple example case study in the form of a drinks machine.},
+	author	  = {Michael Foster and Achim D. Brucker and Ramsay G. Taylor and John Derrick},
+	date	  = {2020-09-07},
+	file	  = {https://www.brucker.ch/bibliography/download/2020/foster.ea-efsm-outline-2020.pdf},
+	filelabel = {Outline},
+	issn	  = {2150-914x},
+	journal	  = {Archive of Formal Proofs},
+	month	  = {sep},
+	note	  = {\url{http://www.isa-afp.org/entries/Extended_Finite_State_Machines.html}, Formal proof development},
+	pdf	  = {https://www.brucker.ch/bibliography/download/2020/foster.ea-efsm-2020.pdf},
+	title	  = {A Formal Model of Extended Finite State Machines},
+	url	  = {https://www.brucker.ch/bibliography/abstract/foster.ea-efsm-2020},
+	year	  = {2020},
+} 
+
+An overview of the formalization is given in:
+
+  Michael Foster, Ramsay G. Taylor, Achim D. Brucker, and John Derrick. 
+  Formalising Extended Finite State Machine Transition Merging. In ICFEM. 
+  Lecture Notes in Computer Science (11232), pages 373-387, Springer-Verlag, 
+  2018, doi:10.1007/978-3-030-02450-5
+  https://www.brucker.ch/bibliography/abstract/foster.ea-efsm-2018
+
+A BibTeX entry for LaTeX users is
+
+@InCollection{ foster.ea:efsm:2018,
+	abstract  = {Model inference from system traces, e.g. for analysing legacy 
+                     components or generating security tests for distributed components, 
+                     is a common problem. Extended Finite State Machine (EFSM) models, managing 
+                     an internal state as a set of registers, are particular well suited for 
+                     capturing the behaviour of stateful components however, existing inference 
+                     techniques for (E)FSMs lack the ability to infer the internal state and its 
+                     updates functions.
+  
+                     In this paper, we present a novel approach for inferring 
+                     EFSMs from system traces that also infers the updates of the internal state. 
+                     Our approach supports the merging of transitions that update the internal data 
+                     state. Finally, our model is formalised in Isabelle/HOL, allowing for the 
+                     machine-checked verification of system properties.},
+	address	  = {Heidelberg},
+	author	  = {Michael Foster and Ramsay G. Taylor and Achim D. Brucker and John Derrick},
+	booktitle = {ICFEM},
+	doi	  = {10.1007/978-3-030-02450-5},
+	editor	  = {Jin Song Dong and Jing Sun},
+	isbn	  = {978-3-030-02449-9},
+	keywords  = {model inference, state machine models, EFSM},
+	language  = {USenglish},
+	location  = {Gold Coast, Australia},
+	number	  = {11232},
+	pages	  = {373--387},
+	pdf	  = {https://www.brucker.ch/bibliography/download/2018/foster.ea-efsm-2018.pdf},
+	publisher = {Springer-Verlag},
+	series	  = {Lecture Notes in Computer Science},
+	title	  = {Formalising Extended Finite State Machine Transition Merging},
+	url	  = {https://www.brucker.ch/bibliography/abstract/foster.ea-efsm-2018},
+	year	  = {2018},
+} 
