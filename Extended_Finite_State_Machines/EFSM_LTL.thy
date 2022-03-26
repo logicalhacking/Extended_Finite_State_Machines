@@ -4,7 +4,7 @@ library and defines functions to ease the expression of LTL properties over EFSM
 operators effectively act over traces of models we must find a way to express models as streams.\<close>
 
 theory EFSM_LTL
-imports "Extended_Finite_State_Machines.EFSM" "HOL-Library.Linear_Temporal_Logic_on_Streams"
+imports "Extended_Finite_State_Machines-devel.EFSM" "HOL-Library.Linear_Temporal_Logic_on_Streams"
 begin
 
 text_raw\<open>\snip{statedef}{1}{2}{%\<close>

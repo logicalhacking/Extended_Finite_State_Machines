@@ -2,7 +2,7 @@ section\<open>Temporal Properties\<close>
 text\<open>This theory presents some examples of temporal properties over the simple drinks machine.\<close>
 
 theory Drinks_Machine_LTL
-imports "Drinks_Machine" "Extended_Finite_State_Machines.EFSM_LTL"
+imports "Drinks_Machine" "Extended_Finite_State_Machines-devel.EFSM_LTL"
 begin
 
 declare One_nat_def [simp del]
